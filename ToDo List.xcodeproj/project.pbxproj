@@ -11,6 +11,10 @@
 		BD83EAF82A79423100153805 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83EAF72A79423100153805 /* ContentView.swift */; };
 		BD83EAFA2A79423200153805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD83EAF92A79423200153805 /* Assets.xcassets */; };
 		BD83EAFD2A79423200153805 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD83EAFC2A79423200153805 /* Preview Assets.xcassets */; };
+		BD83EB042A79426B00153805 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83EB032A79426B00153805 /* ToDoItem.swift */; };
+		BD83EB062A79457700153805 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83EB052A79457700153805 /* NewToDoView.swift */; };
+		BD83EB082A7951D900153805 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83EB072A7951D800153805 /* Persistence.swift */; };
+		BD83EB0B2A79531F00153805 /* ToDo List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD83EB092A79531F00153805 /* ToDo List.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		BD83EAF72A79423100153805 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD83EAF92A79423200153805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD83EAFC2A79423200153805 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD83EB032A79426B00153805 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		BD83EB052A79457700153805 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		BD83EB072A7951D800153805 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BD83EB0A2A79531F00153805 /* ToDo List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ToDo List.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				BD83EAF52A79423100153805 /* ToDo_ListApp.swift */,
 				BD83EAF72A79423100153805 /* ContentView.swift */,
+				BD83EB072A7951D800153805 /* Persistence.swift */,
+				BD83EB052A79457700153805 /* NewToDoView.swift */,
+				BD83EB032A79426B00153805 /* ToDoItem.swift */,
 				BD83EAF92A79423200153805 /* Assets.xcassets */,
 				BD83EAFB2A79423200153805 /* Preview Content */,
+				BD83EB092A79531F00153805 /* ToDo List.xcdatamodeld */,
 			);
 			path = "ToDo List";
 			sourceTree = "<group>";
@@ -139,6 +151,10 @@
 			files = (
 				BD83EAF82A79423100153805 /* ContentView.swift in Sources */,
 				BD83EAF62A79423100153805 /* ToDo_ListApp.swift in Sources */,
+				BD83EB042A79426B00153805 /* ToDoItem.swift in Sources */,
+				BD83EB062A79457700153805 /* NewToDoView.swift in Sources */,
+				BD83EB0B2A79531F00153805 /* ToDo List.xcdatamodeld in Sources */,
+				BD83EB082A7951D900153805 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +353,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD83EB092A79531F00153805 /* ToDo List.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD83EB0A2A79531F00153805 /* ToDo List.xcdatamodel */,
+			);
+			currentVersion = BD83EB0A2A79531F00153805 /* ToDo List.xcdatamodel */;
+			path = "ToDo List.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BD83EAEA2A79423100153805 /* Project object */;
 }
